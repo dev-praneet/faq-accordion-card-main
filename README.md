@@ -69,5 +69,3 @@ I could make the javascript part more efficient by not having to loop over all t
 
 
 ## Acknowledgments
-
-
