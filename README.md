@@ -43,17 +43,19 @@ Users should be able to:
 - Semantic HTML5 markup
 - CSS custom properties
 - Flexbox
+- JavaScript
 
 
 ### What I learned
 
 - I learnt to animate the appearance and disappearance of a block using javascript, which in this case were the answers to different questions.
-
 - Also learnt to center an absolutely positioned image (or any other block) whose dimension is not fixed using javascript.
+- When an object is absolutely positioned w.r.t. one of the sections in a flexbox container then the units in percentages refer to the widht of that section rather than the whole width of the flexbox.
 
 ### Continued development
 
-I could make the javascript part more efficient by not having to loop over all the question whenever a user views the answer to a single question by clicking on it. I probably need to learn event delegation and data attribute to make the code more efficient.
+- I could make the javascript part more efficient by not having to loop over all the question whenever a user views the answer to a single question by clicking on it. I probably need to learn event delegation and data attribute to make the code more efficient.
+- Since I used CSS as well as javascript for styling to make images more responsive, while refreshing the page, there is an abrupt change in the locations of object because of conflicting properties. This can be sorted out to make the experience smoother.
 
 
 ### Useful resources
@@ -61,7 +63,6 @@ I could make the javascript part more efficient by not having to loop over all t
 - [How can I transition height: 0; to height: auto; using CSS?
 ](https://stackoverflow.com/a/3149710/16570555) - This helped me animate the appearance and disappearance of answers to questions.
 - [Understanding vertical-align, or "How (Not) To Vertically Center Content"](http://phrogz.net/css/vertical-align/index.html) - This article helped me figure out the way to align items in the center vertically.
-
 
 ## Author
 

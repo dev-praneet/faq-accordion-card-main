@@ -25,24 +25,32 @@ for (let i = 0; i < questionBlocks.length; i++) {
 
 
 const root = document.querySelector(':root');
-const containerPaddingTop = getComputedStyle(root).getPropertyValue('--container_padding_top');
+const containerPaddingTop = getComputedStyle(root).getPropertyValue('--container_padding_top_mobile');
+const containerPaddingLeft = getComputedStyle(root).getPropertyValue('--container_padding');
 const mobileWidth = getComputedStyle(root).getPropertyValue('--mobile_width');
 
 const imageBox = document.getElementById('image-box');
+const image = document.getElementsByClassName('image');
 imageBox.addEventListener("load", () => {
     if (window.innerWidth <= mobileWidth.slice(0, -2)) {
     imageBox.style.marginLeft = -0.5 * imageBox.clientWidth + "px";
     imageBox.style.top = -0.45 * imageBox.clientHeight - containerPaddingTop.slice(0, -2) + "px";
-    } 
+    imageBox.style.left = null;
+    } else {
+        imageBox.style.left = - containerPaddingLeft.slice(0, -2) - 0.5 * imageBox.clientWidth + "px";
+        imageBox.style.top = 0.5 * image[0].clientHeight - 0.3 * imageBox.clientHeight + "px";
+        console.log(0.5 * image[0].clientHeight - 0.5 * imageBox.clientHeight + "px");
+    }
 });
 window.addEventListener("resize", () => {
     if (window.innerWidth <= mobileWidth.slice(0,-2)) {
     imageBox.style.marginLeft = -0.5 * imageBox.clientWidth + "px"; 
     imageBox.style.top = -0.45 * imageBox.clientHeight - containerPaddingTop.slice(0, -2) + "px";
+    imageBox.style.left = null;
     } else {
-        console.log('else block was executed');
         imageBox.style.marginLeft = null;
-        imageBox.style.top = null;
+        imageBox.style.top = 0.5 * image[0].clientHeight - 0.3 * imageBox.clientHeight + "px";
+        imageBox.style.left = - containerPaddingLeft.slice(0, -2) - 0.5 * imageBox.clientWidth + "px";
     }
 });
 
