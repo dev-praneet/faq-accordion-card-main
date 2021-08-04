@@ -65,6 +65,14 @@ body {
     width: 50%;
 }
 
+.image-box-desktop {
+    position: absolute;
+    display: block;
+    top: 42%;
+    right: 102%;
+    width: 50%;
+}
+
 .question {
     width: 80%;
     font-weight: 400;
@@ -138,7 +146,6 @@ h1 {
         position: absolute;
         left: 16%;
         width: 40%;
-        /* margin: 0 auto; */
     }
     h1 {
         text-align: center
