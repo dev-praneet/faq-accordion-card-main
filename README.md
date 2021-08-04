@@ -33,8 +33,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- [Solution URL](https://github.com/geeky-amat/faq-accordion-card-main)
+- [Live Site URL](https://geeky-amat.github.io/faq-accordion-card-main/)
 
 ## My process
 
@@ -43,33 +43,17 @@ Users should be able to:
 - Semantic HTML5 markup
 - CSS custom properties
 - Flexbox
-- CSS Grid
 
 
 ### What I learned
 
-- I learnt to animate the appearance and disappearance of a block, which in this case were the answers to different questions.
+- I learnt to animate the appearance and disappearance of a block using javascript, which in this case were the answers to different questions.
 
-To see how you can add code snippets, see below:
-
-```html
-<h1>Some HTML code I'm proud of</h1>
-```
-```css
-.proud-of-this-css {
-  color: papayawhip;
-}
-```
-```js
-const proudOfThisFunc = () => {
-  console.log('🎉')
-}
-```
-- 
+- Also learnt to center an absolutely positioned image (or any other block) whose dimension is not fixed using javascript.
 
 ### Continued development
 
-Use this section to outline areas that you want to continue focusing on in future projects. These could be concepts you're still not completely comfortable with or techniques you found useful that you want to refine and perfect.
+I could make the javascript part more efficient by not having to loop over all the question whenever a user views the answer to a single question by clicking on it. I probably need to learn event delegation and data attribute to make the code more efficient.
 
 
 ### Useful resources
@@ -81,9 +65,7 @@ Use this section to outline areas that you want to continue focusing on in futur
 
 ## Author
 
-- Website - [Add your name here](https://www.your-site.com)
 - Frontend Mentor - [@yourusername](https://www.frontendmentor.io/profile/yourusername)
-- Twitter - [@yourusername](https://www.twitter.com/yourusername)
 
 
 ## Acknowledgments
