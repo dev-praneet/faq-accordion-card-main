@@ -18,7 +18,7 @@ body {
 }
 
 .wrapper {
-    padding: 7rem 0;
+    padding: 5rem 0;
 }
 
 .container {
@@ -118,7 +118,7 @@ h1 {
     }
     .container {
         max-width: 90%;
-        margin: 0 auto;
+        margin: 0 auto 3em auto;
         background-color: hsl(145, 0%, 100%);
         border-radius: 1rem;
         padding-top: var(--container_padding_top_mobile);
