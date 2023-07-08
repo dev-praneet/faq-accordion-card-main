@@ -29,13 +29,13 @@ Users should be able to:
 ### Screenshot
 
 - Desktop
-  ![](./screenshot_desktop.png)
+  ![Desktop Screenshot](./screenshot_desktop.png)
 
 
 ### Links
 
-- [Solution URL](https://github.com/geeky-amat/faq-accordion-card-main)
-- [Live Site URL](https://geeky-amat.github.io/faq-accordion-card-main/)
+- [Solution URL](https://github.com/dev-praneet/faq-accordion-card-main)
+- [Live Site URL](https://dev-praneet.github.io/faq-accordion-card-main/)
 
 ## My process
 
@@ -79,6 +79,7 @@ This is because media query is not a CSS element and it doesn't inherit from the
 ## Author
 
 - Frontend Mentor - [@geeky-amat](https://www.frontendmentor.io/profile/geeky-amat)
+- Twitter - [@\_\_dev_praneet\_\_](https://twitter.com/__dev_praneet__)
 
 
 ## Acknowledgments
